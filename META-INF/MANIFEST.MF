@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: kubejs
+Specification-Vendor: LatvianModder
+Specification-Version: 1
+Implementation-Title: forge
+Implementation-Version: 2001.6.5-build.26
+Implementation-Vendor: LatvianModder
+Implementation-Timestamp: 2026-05-01T10:42:57+0000
+MixinConfigs: kubejs-forge.mixins.json,kubejs-common.mixins.json
+

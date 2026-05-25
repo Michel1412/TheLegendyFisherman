@@ -1,0 +1,81 @@
+{
+	autofocus_id: "45DB4E1B9BCC5C05"
+	default_hide_dependency_lines: false
+	filename: "mestre_pescador"
+	group: "4FD42C8A70C3F177"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:fishing_rod" }
+	id: "53ED630AC3AC13F4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["12753FFB6686B5F3"]
+			id: "45DB4E1B9BCC5C05"
+			rewards: [{
+				id: "21B8B9C0A6FA076E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1B3739859AA173E1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45DB4E1B9BCC5C05"]
+			id: "0D0F2F8A9787F78D"
+			rewards: [{
+				id: "5B30EAA3E68FBA60"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "79769380EE2FFEB8"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 100
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D0F2F8A9787F78D"]
+			id: "5016BBF18A5BE472"
+			rewards: [{
+				id: "225D46EC74F57FE5"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				biome: "minecraft:deep_ocean"
+				id: "384413DC8BD6D232"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5016BBF18A5BE472"]
+			id: "357E90BE5994BAE2"
+			rewards: [{
+				id: "25E50FEF17A89A0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "476AF966483235C8"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 200
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Mestre Pescador"
+}

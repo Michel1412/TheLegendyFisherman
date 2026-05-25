@@ -1,0 +1,80 @@
+{
+	autofocus_id: "7083A48389EDC4CE"
+	default_hide_dependency_lines: false
+	filename: "mestre_marinheiro"
+	group: "4FD42C8A70C3F177"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:map" }
+	id: "36AEA28893EED705"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["12753FFB6686B5F3"]
+			id: "7083A48389EDC4CE"
+			rewards: [{
+				id: "12D10326F6AC2C01"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "03D379111ACDDCF8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7083A48389EDC4CE"]
+			id: "0225CF927FC31FC3"
+			rewards: [{
+				id: "448664D5496F312C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "38FE1030A91AFDAD"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 10000
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0225CF927FC31FC3"]
+			id: "1FAD3E59DEC0887B"
+			rewards: [{
+				id: "4BC4144416E51FD7"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4EEDCA08EE3667DB"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FAD3E59DEC0887B"]
+			id: "0483799ED346B468"
+			rewards: [{
+				id: "769B6FB3F1288D66"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				biome: "minecraft:deep_cold_ocean"
+				id: "3CD04F194ADCDA43"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Mestre Marinheiro"
+}

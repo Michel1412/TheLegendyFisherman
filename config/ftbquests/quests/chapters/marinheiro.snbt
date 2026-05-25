@@ -1,0 +1,79 @@
+{
+	autofocus_id: "0E5C288373769EE9"
+	default_hide_dependency_lines: false
+	filename: "marinheiro"
+	group: "14CBBE38ED185C1E"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:oak_boat" }
+	id: "61A5FAA7D712D09D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B63327585027AE2"]
+			id: "0E5C288373769EE9"
+			rewards: [{
+				id: "1EAA96DF536BD8C5"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4B7643080CF8F2B6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E5C288373769EE9"]
+			id: "6ADE74CA08C109B7"
+			rewards: [{
+				id: "05ED598989E182AD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				biome: "minecraft:beach"
+				id: "0B44CA383AAA72CE"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ADE74CA08C109B7"]
+			id: "09EA84EA8B5A47B0"
+			rewards: [{
+				id: "5C33E1A326C79F92"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "587132E0C27987C1"
+				item: { count: 1, id: "minecraft:oak_boat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09EA84EA8B5A47B0"]
+			id: "0B7DBA167854991E"
+			rewards: [{
+				id: "06E60AE01AD988D2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				id: "73FC8C07A625299F"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Marinheiro"
+}

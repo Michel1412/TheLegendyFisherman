@@ -1,0 +1,75 @@
+{
+	autofocus_id: "514459B8E2867312"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "caminhos_profundos"
+	group: "7A2B9C1D4E6F8091"
+	hide_quest_until_deps_visible: true
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:icons/journal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5D3CF09FAC69FFEA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7BF920AB7D7891D4"
+				"0DEF33350ECF598C"
+				"034F98C3AF90CD51"
+				"0B7DBA167854991E"
+			]
+			dependency_requirement: "all_completed"
+			id: "514459B8E2867312"
+			rewards: [{
+				id: "242BF0C366BDB472"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "043655CE140D6028"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["514459B8E2867312"]
+			id: "646D9FE5612BFFFC"
+			rewards: [{
+				id: "3C9D35CFAA46A1D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A53FC8CB1B0FCFB"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["646D9FE5612BFFFC"]
+			id: "12753FFB6686B5F3"
+			rewards: [{
+				description: "quest.tlf.toast.mestre"
+				id: "2E3A350D3909323E"
+				type: "toast"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3F60C6DC8BD810C1"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "Caminhos Profundos"
+}

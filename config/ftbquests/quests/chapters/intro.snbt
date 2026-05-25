@@ -1,0 +1,96 @@
+{
+	autofocus_id: "3ABF451FD174FC74"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "intro"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: { id: "farmersdelight:flint_knife" }
+	id: "7819FD50AECFC6BF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3ABF451FD174FC74"
+			rewards: [{
+				id: "60B9A325A5E07301"
+				item: { count: 4, id: "minecraft:string" }
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1BA8657D5ACC4ED6"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABF451FD174FC74"]
+			id: "1FD3C02A7F7B2188"
+			rewards: [{
+				id: "7C7AC2BE00736140"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "79A9F7BEEA0B6DB9"
+				item: { count: 1, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FD3C02A7F7B2188"]
+			id: "6B635D1717E56622"
+			rewards: [{
+				id: "5209CDA7BD821701"
+				item: { count: 2, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "20EF3F7BC56CCE6F"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B635D1717E56622"]
+			id: "7515A04E6573E89D"
+			rewards: [{
+				id: "7C83AAC42F9D2988"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "419CF4B2105E95D0"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7515A04E6573E89D"]
+			id: "2B63327585027AE2"
+			rewards: [{
+				description: "quest.tlf.toast.basico"
+				id: "5BE0D01B8DF47801"
+				type: "toast"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "612877F5C1A84382"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Intro"
+}

@@ -1,0 +1,79 @@
+{
+	autofocus_id: "51CC2296EAA81F4A"
+	default_hide_dependency_lines: false
+	filename: "arteso"
+	group: "14CBBE38ED185C1E"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:crafting_table" }
+	id: "445F5AC8ECDEB032"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B63327585027AE2"]
+			id: "51CC2296EAA81F4A"
+			rewards: [{
+				id: "27D936B151B523C3"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4738BFB91521A20A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51CC2296EAA81F4A"]
+			id: "1800AE5691926726"
+			rewards: [{
+				id: "2A0390BBF7E3658B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "71CFA0C7A1F30352"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1800AE5691926726"]
+			id: "3A9553A48AFC4357"
+			rewards: [{
+				id: "5A54041A21C879DA"
+				item: { count: 2, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EF38AABD6EF7AEC"
+				item: { count: 1, id: "minecraft:oak_boat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A9553A48AFC4357"]
+			id: "034F98C3AF90CD51"
+			rewards: [{
+				id: "2C51DC717DE5A31F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "54F29B2658441FD7"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Artesão"
+}

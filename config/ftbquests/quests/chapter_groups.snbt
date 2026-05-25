@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "14CBBE38ED185C1E", title: "Primordios" }
+		{ id: "7A2B9C1D4E6F8091", title: "Terminou o Tutorial!!" }
+		{ id: "4FD42C8A70C3F177", title: "Progressão Infinita?" }
+		{ id: "50D79C43CF4E56EF", title: "Vivemos da Pesca!" }
+	]
+}

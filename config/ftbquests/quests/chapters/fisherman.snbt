@@ -1,0 +1,81 @@
+{
+	autofocus_id: "09F348FF8189073A"
+	default_hide_dependency_lines: false
+	filename: "fisherman"
+	group: "14CBBE38ED185C1E"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:cod" }
+	id: "263550FBBA81F03A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B63327585027AE2"]
+			id: "09F348FF8189073A"
+			rewards: [{
+				id: "2C13192182E14039"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2972309F315120C6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F348FF8189073A"]
+			id: "2279061F8FB1E455"
+			rewards: [{
+				id: "10FB6CA5F57FA432"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6649732A3DD95ACB"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 5
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2279061F8FB1E455"]
+			id: "7314C8334DF9DF87"
+			rewards: [{
+				id: "619BD207D5AA1BB8"
+				item: { count: 8, id: "minecraft:cod" }
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				id: "061E14ED7C87C18C"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7314C8334DF9DF87"]
+			id: "7BF920AB7D7891D4"
+			rewards: [{
+				id: "085E744B4D09EFCF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "30D83D979CED521B"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 20
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Pescador"
+}

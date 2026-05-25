@@ -1,0 +1,53 @@
+{
+	autofocus_id: "7762EE2CF2AD3279"
+	default_hide_dependency_lines: false
+	filename: "suas_metricas"
+	group: "50D79C43CF4E56EF"
+	hide_quest_until_deps_visible: true
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:icons/clock"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6022D36512A991C0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["499DAD451959A7D3"]
+			id: "7762EE2CF2AD3279"
+			rewards: [{
+				id: "389260BC4305AA3F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "57D34934FE21F95A"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7762EE2CF2AD3279"]
+			id: "3C7A71620DE78192"
+			rewards: [{
+				description: "quest.tlf.toast.fim"
+				id: "5B161498F9D9C09E"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1BAA5E97FDAD4301"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Suas Metricas"
+}

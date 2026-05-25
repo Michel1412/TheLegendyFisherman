@@ -1,0 +1,79 @@
+{
+	autofocus_id: "1922E0069FE0C4C8"
+	default_hide_dependency_lines: false
+	filename: "cozinheiro"
+	group: "14CBBE38ED185C1E"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:cooked_cod" }
+	id: "4B99631A99D1F1E0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B63327585027AE2"]
+			id: "1922E0069FE0C4C8"
+			rewards: [{
+				id: "69054DECF4A0AED7"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "19AD4914BB6BF943"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1922E0069FE0C4C8"]
+			id: "5C6A9F8A8B0E5857"
+			rewards: [{
+				id: "4DF8FC748B91123C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5E36275AF4A8C08F"
+				item: { count: 1, id: "minecraft:cooked_cod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6A9F8A8B0E5857"]
+			id: "650EFA7589F46DBE"
+			rewards: [{
+				id: "5362257C0A843E0D"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "42034325FE69DC46"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["650EFA7589F46DBE"]
+			id: "0DEF33350ECF598C"
+			rewards: [{
+				id: "62389A38628C467F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "789E36EADC46B27F"
+				item: { count: 1, id: "minecraft:cooked_salmon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Cozinheiro"
+}

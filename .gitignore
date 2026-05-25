@@ -1,0 +1,15 @@
+# Runtime/local Minecraft state
+logs/
+saves/
+local/
+mods/
+crash-reports/
+cache/
+world*/
+
+# KubeJS generated/exported output
+kubejs/exported/
+kubejs/config/temp/
+
+# Local backups
+*.bak

@@ -1,0 +1,79 @@
+{
+	autofocus_id: "33C318105923C519"
+	default_hide_dependency_lines: false
+	filename: "mestre_arteso"
+	group: "4FD42C8A70C3F177"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecraft:smithing_table" }
+	id: "02D5E0A03CD4F032"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["12753FFB6686B5F3"]
+			id: "33C318105923C519"
+			rewards: [{
+				id: "244C9CF4646E75BA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "26049CF7D2292984"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33C318105923C519"]
+			id: "01910148EC512A75"
+			rewards: [{
+				id: "678BD496C01E737D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1A44AC0A7E035B91"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01910148EC512A75"]
+			id: "3044A3D969077C69"
+			rewards: [{
+				id: "4CE7B7912CC3878D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "12415896113D637B"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3044A3D969077C69"]
+			id: "5E44EA72D1C2E021"
+			rewards: [{
+				id: "42FCB17EFB3E6F00"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "773B650B3CBD6543"
+				item: { count: 1, id: "minecraft:grindstone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Mestre Artesão"
+}

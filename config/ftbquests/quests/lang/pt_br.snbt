@@ -1,0 +1,221 @@
+{
+	chapter.7819FD50AECFC6BF.title: "Intro"
+	chapter.7819FD50AECFC6BF.subtitle: "Fundamentos — obrigatório antes das rotas"
+	chapter.263550FBBA81F03A.title: "Pescador"
+	chapter.263550FBBA81F03A.subtitle: "Aprendiz — progressão rápida"
+	chapter.445F5AC8ECDEB032.title: "Artesão"
+	chapter.445F5AC8ECDEB032.subtitle: "Aprendiz — progressão rápida"
+	chapter.61A5FAA7D712D09D.title: "Marinheiro"
+	chapter.61A5FAA7D712D09D.subtitle: "Aprendiz — progressão rápida"
+	chapter.4B99631A99D1F1E0.title: "Cozinheiro"
+	chapter.4B99631A99D1F1E0.subtitle: "Aprendiz — progressão rápida"
+	chapter.5D3CF09FAC69FFEA.title: "Caminhos Profundos"
+	chapter.5D3CF09FAC69FFEA.subtitle: "Desbloqueado após as quatro rotas de Aprendiz"
+	chapter.53ED630AC3AC13F4.title: "Mestre Pescador"
+	chapter.53ED630AC3AC13F4.subtitle: "Progressão lenta — maestria"
+	chapter.02D5E0A03CD4F032.title: "Mestre Artesão"
+	chapter.02D5E0A03CD4F032.subtitle: "Progressão lenta — maestria"
+	chapter.36AEA28893EED705.title: "Mestre Marinheiro"
+	chapter.36AEA28893EED705.subtitle: "Progressão lenta — maestria"
+	chapter.3987CA78B88B2DAD.title: "Mestre Cozinheiro"
+	chapter.3987CA78B88B2DAD.subtitle: "Progressão lenta — maestria"
+	chapter.01AF924A53DE9453.title: "Início da Vila"
+	chapter.01AF924A53DE9453.subtitle: "Guia da colônia portuária (MineColonies)"
+	chapter.6022D36512A991C0.title: "Suas Métricas"
+	chapter.6022D36512A991C0.subtitle: "Dedicatória e retrospectiva da jornada"
+	chapter_group.14CBBE38ED185C1E.title: "Aprendiz"
+	chapter_group.7A2B9C1D4E6F8091.title: "Jornada"
+	chapter_group.4FD42C8A70C3F177.title: "Mestre"
+	chapter_group.50D79C43CF4E56EF.title: "Vivemos da Pesca!"
+
+	quest.3ABF451FD174FC74.title: "Faca do marujo"
+	quest.3ABF451FD174FC74.quest_subtitle: "Farmer's Delight — faca de sílex"
+	quest.3ABF451FD174FC74.quest_desc: [
+		"Antes de pescar, aprenda a improvisar no cais."
+		""
+		"Tenha no inventário uma &efaca do Farmer's Delight&r (&7flint knife&r). Com ela você poderá preparar materiais e, mais adiante, &6cordas&r (&orope&r) para montar equipamento."
+	]
+	quest.1FD3C02A7F7B2188.title: "Corda improvisada"
+	quest.1FD3C02A7F7B2188.quest_subtitle: "1× farmersdelight:rope"
+	quest.1FD3C02A7F7B2188.quest_desc: [
+		"Use a faca e os recursos do &eFarmer's Delight&r para obter uma &6corda&r."
+		""
+		"Ela substitui o barbante na única receita de vara permitida neste modpack."
+	]
+	quest.6B635D1717E56622.title: "Vara do aprendiz"
+	quest.6B635D1717E56622.quest_subtitle: "3 gravetos + 2 cordas"
+	quest.6B635D1717E56622.quest_desc: [
+		"Monte sua primeira vara na bancada:"
+		""
+		"&7Padrão igual à vara vanilla&r, trocando &estring&r por &6corda&r:"
+		"&8[ R ]&r"
+		"&8[RS]&r"
+		"&8[S  ]&r"
+		""
+		"R = corda, S = graveto. A vara do pack tem apenas &c10 de durabilidade&r — trate-a com cuidado."
+	]
+	quest.7515A04E6573E89D.title: "Lendo as marés (Tiers)"
+	quest.7515A04E6573E89D.quest_desc: [
+		"&7LOW&r — improviso. &fMEDIUM&r — estabilidade. &aGOOD&r — especialização."
+		"&9GREAT&r — reconhecimento local. &5EXCELLENT&r — maestria. &dPERFECT&r — excelência rara. &6LEGENDARY&r — transcendência."
+		""
+		"Quatro rotas de &aAprendiz&r (rápidas) abrem em paralelo após esta etapa. Depois vêm &cCaminhos Profundos&r e a trilha &9Mestre&r (lenta)."
+	]
+	quest.2B63327585027AE2.title: "Fundamentos concluídos"
+	quest.2B63327585027AE2.quest_subtitle: "Desbloqueia as 4 vertentes Aprendiz"
+	quest.2B63327585027AE2.quest_desc: [
+		"Você tem faca, corda e vara improvisada. As abas &aPescador&r, &6Cozinheiro&r, &7Artesão&r e &bMarinheiro&r liberam &oao mesmo tempo&r — pode fazer em qualquer ordem, mas &lcada aba&r é sequencial por dentro."
+		""
+		"Conclua &todas as quatro&r para abrir &cCaminhos Profundos&r."
+	]
+
+	quest.09F348FF8189073A.title: "Aprendiz do cais"
+	quest.09F348FF8189073A.quest_desc: ["A rota do Pescador abre. Capture, observe biomas e acumule reputação no cais."]
+	quest.2279061F8FB1E455.title: "Rede de iniciante"
+	quest.2279061F8FB1E455.quest_subtitle: "Pesque 5 vezes"
+	quest.7314C8334DF9DF87.title: "Águas abertas"
+	quest.7314C8334DF9DF87.quest_subtitle: "Visite o oceano"
+	quest.7BF920AB7D7891D4.title: "Aprendiz pescador — concluído"
+	quest.7BF920AB7D7891D4.quest_desc: ["Você dominou o ritmo rápido da costa. Sua insígnia costeira aguarda o próximo maré."]
+
+	quest.1922E0069FE0C4C8.title: "Fogueira do convés"
+	quest.5C6A9F8A8B0E5857.title: "Primeiro prato de bordo"
+	quest.650EFA7589F46DBE.title: "Cozinha do marinheiro"
+	quest.0DEF33350ECF598C.title: "Aprendiz cozinheiro — concluído"
+
+	quest.51CC2296EAA81F4A.title: "Oficina à beira-mar"
+	quest.1800AE5691926726.title: "Bancada náutica"
+	quest.3A9553A48AFC4357.title: "Embarcação simples"
+	quest.034F98C3AF90CD51.title: "Aprendiz artesão — concluído"
+
+	quest.0E5C288373769EE9.title: "Carta náutica rasgada"
+	quest.6ADE74CA08C109B7.title: "Areia e maré"
+	quest.09EA84EA8B5A47B0.title: "Leme nas mãos"
+	quest.0B7DBA167854991E.title: "Aprendiz marinheiro — concluído"
+
+	quest.514459B8E2867312.title: "Quatro ventos reunidos"
+	quest.514459B8E2867312.quest_desc: [
+		"Você fechou as quatro abas de &aAprendiz&r. Os veteranos do porto sussurram que há mares além da costa — rotas mais profundas e perigosas."
+		""
+		"Leia com atenção: o que vem agora não é pressa, é &ldquo;profundidade&rdquo;."
+	]
+	quest.646D9FE5612BFFFC.title: "Caminhos profundos do oceano"
+	quest.646D9FE5612BFFFC.quest_desc: [
+		"&6Pescador lendário&r caça histórias, não só comida."
+		"&6Chef das profundezas&r transforma o RNG em banquete."
+		"&6Artesão das lendas&r forja relíquias, não ferramentas."
+		"&6Lorde dos oceanos&r domina segredos, não apenas mapas."
+		""
+		"A trilha &9Mestre&r exige repetição, exploração e domínio. Quando estiver pronto, marque esta missão."
+	]
+	quest.12753FFB6686B5F3.title: "Portão dos Mestres"
+	quest.12753FFB6686B5F3.quest_subtitle: "Desbloqueia as quatro abas Mestre"
+	quest.12753FFB6686B5F3.quest_desc: [
+		"As abas &9Mestre&r estão liberadas. A progressão aqui é &lenta&r — alinhada ao manifesto (GOOD → LEGENDARY)."
+		""
+		"Conclua as quatro rotas de Mestre para fundar sua &2colônia portuária&r."
+	]
+
+	quest.45DB4E1B9BCC5C05.title: "Mestre das linhas"
+	quest.357E90BE5994BAE2.title: "Emblema do mar aberto"
+	quest.6D2FE5B89D57DC5A.title: "Mestre do tempero"
+	quest.463D0E02AAFD20CD.title: "Brasão do sabor profundo"
+	quest.33C318105923C519.title: "Mestre do estaleiro"
+	quest.5E44EA72D1C2E021.title: "Selo do forjador do oceano"
+	quest.7083A48389EDC4CE.title: "Mestre da carta náutica"
+	quest.0483799ED346B468.title: "Astrolábio do abismo"
+
+	quest.78A1E6167FAD8297.title: "O porto dos lendários"
+	quest.78A1E6167FAD8297.quest_desc: [
+		"Você provou maestria nas quatro rotas. Agora ergue-se um &2assentamento portuário&r — não uma vila qualquer, mas um refúgio de pescadores, artesãos, cozinheiros e marinheiros que vivem da pesca."
+		""
+		"Este guia usa &eMineColonies&r. Siga cada passo na ordem; os textos usam o tom do modpack (mares, piratas, guildas)."
+	]
+	quest.2404617F225A7E70.title: "Barraca de suprimentos do corsário"
+	quest.2404617F225A7E70.quest_desc: [
+		"Coloque a &eBarraca de Suprimentos&r (&osupply camp&r) onde deseja fundar o porto."
+		""
+		"Imagine um acampamento de contrabandistas convertido em entreposto legal: madeira, comida e ferramentas para quem vai enfrentar o oceano."
+	]
+	quest.444E61B131D641EF.title: "Cartório do porto (Prefeitura)"
+	quest.444E61B131D641EF.quest_desc: [
+		"Com o &6Cetro Dourado&r (Structurize), defina o terreno e construa a &ePrefeitura&r (&otown hall&r)."
+		""
+		"Este é o cartório onde se registra cada colonizador — pescadores, cozinheiros de bordo, carpinteiros navais e sentinelas contra piratas."
+	]
+	quest.1ACA906F0606778E.title: "Estaleiro: o construtor do cais"
+	quest.1ACA906F0606778E.quest_desc: [
+		"Contrate um &eConstrutor&r (&obuilder&r). Sem ele, nenhum galpão de redes nem armazém de peixe salgado sai do papel."
+		""
+		"Dica: mantenha blocos de madeira e pedra no armazém central para não atrasar obras."
+	]
+	quest.34AA9119C749FD4D.title: "Cabana do pescador da guilda"
+	quest.34AA9119C749FD4D.quest_desc: [
+		"Erga a &eCabana do Pescador&r. Colonos pescam automaticamente — alimentam a cozinha e o comércio do porto."
+		""
+		"Quanto maior o nível da cabana, mais o oceano vira economia estável para sua lenda."
+	]
+	quest.54E0CF4624409E16.title: "Cozinha do galeão"
+	quest.54E0CF4624409E16.quest_desc: [
+		"A &eCozinha&r transforma capturas em refeições. Cozinheiros de bordo são a ponte entre o &6Pescador&r e os buffs do &6Cozinheiro&r."
+		""
+		"Configure pratos prioritários para peixes de tier alto quando o sistema TLF estiver integrado."
+	]
+	quest.4837393A65B0CAB0.title: "Armazém dos mantimentos salgados"
+	quest.4837393A65B0CAB0.quest_desc: [
+		"O &eArmazém&r é o coração logístico: recebe peixes, entrega materiais aos construtores e alimenta a oficina."
+		""
+		"Sem armazém organizado, até o melhor marinheiro perde tempo voltando ao cais."
+	]
+	quest.6396E6E420AE3D5C.title: "Serraria do estaleiro"
+	quest.6396E6E420AE3D5C.quest_desc: [
+		"O &eLenhador&r fornece madeira para barcos, varas e expansão do cais. Artesãos agradecem cada tábua cortada."
+	]
+	quest.0C627CAAF33B340F.title: "Torre contra piratas"
+	quest.0C627CAAF33B340F.quest_desc: [
+		"Piratas e ilhéus hostis existem. A &eTorre de Guarda&r protege colonos e mantém a pesca noturna possível."
+		""
+		"Guardeiros também expandem a área da colônia — útil para novos cais."
+	]
+	quest.6325FF3640F27E4F.title: "Universidade das cartas náuticas"
+	quest.6325FF3640F27E4F.quest_desc: [
+		"A &eUniversidade&r pesquisa tecnologias: produção, velocidade de pesca, capacidade de armazém."
+		""
+		"Pense nela como a escola onde marinheiros e mestres compartilham mapas e segredos."
+	]
+	quest.499DAD451959A7D3.title: "Porto próspero — colônia fundada"
+	quest.499DAD451959A7D3.quest_subtitle: "Sua vila marítima está de pé"
+	quest.499DAD451959A7D3.quest_desc: [
+		"O porto respira. Pescadores lançam redes, cozinheiros fervem caldeirões, artesãos consertam barcos e marinheiros traçam rotas."
+		""
+		"A última página do livro de missões aguarda: &6Suas Métricas&r — uma dedicatória à sua jornada."
+	]
+
+	quest.7762EE2CF2AD3279.title: "Relógio das marés"
+	quest.7762EE2CF2AD3279.quest_desc: [
+		"O jogo registra quanto tempo você navegou nesta lenda."
+		""
+		"Esta missão completa assim que você tiver qualquer tempo registrado em &estatísticas&r (&oplay time&r)."
+		"No futuro, créditos dos desenvolvedores, versão do pack e totais aparecerão aqui."
+	]
+	quest.3C7A71620DE78192.title: "Dedicatória — Legendary Fishman"
+	quest.3C7A71620DE78192.quest_desc: [
+		"&6&lObrigado por jogar The Legendary Fishman.&r"
+		""
+		"Você passou do aprendiz ao mestre, fundou um porto e escreveu sua própria lenda nos oceanos."
+		""
+		"&7[Espaço reservado — preencher pelo autor:]&r"
+		"• Tempo total de jogo"
+		"• Peixes capturados / tier mais alto"
+		"• Nome dos desenvolvedores"
+		"• Links da comunidade"
+		"• Mensagem da temporada"
+		""
+		"Que as marés sejam sempre a seu favor."
+	]
+
+	quest.tlf.toast.basico: "Fundamentos concluídos — rotas Aprendiz liberadas!"
+	quest.tlf.toast.mestre: "Caminhos Profundos — trilha Mestre liberada!"
+	quest.tlf.toast.colonia: "Porto fundado — sua colônia vive da pesca!"
+	quest.tlf.toast.fim: "Lenda completa — obrigado por jogar!"
+}

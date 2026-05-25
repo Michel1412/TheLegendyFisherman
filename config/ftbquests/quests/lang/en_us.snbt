@@ -1,0 +1,26 @@
+{
+	chapter.75A55E3FDE6CB762.title: "TLF — Referência SNBT"
+	chapter.75A55E3FDE6CB762.subtitle: "Exemplos de tasks e rewards (documentação)"
+	quest.6E36FADE2D62C475.title: "Task: Item"
+	quest.6E36FADE2D62C475.quest_subtitle: "Obter bacalhau"
+	quest.6595260BF4B78581.title: "Task: Checkmark"
+	quest.3D03295762080E28.title: "Task: Kill"
+	quest.3FF7250F0C6DA082.title: "Task: Advancement"
+	quest.33994BAB3A662357.title: "Task: Dimension"
+	quest.3828A78442374688.title: "Task: Biome"
+	quest.6F486E956E86F3C4.title: "Task: Structure"
+	quest.18A853A2A26F2090.title: "Task: Location"
+	quest.15AB2B1F8490D382.title: "Task: Observation"
+	quest.2DA0C0DDFF41AE59.title: "Task: Stat"
+	quest.019007626E86CE4B.title: "Task: Fluid"
+	quest.0E2E8BDFFFA29E86.title: "Task: XP (níveis)"
+	quest.72A0D9E20561F914.title: "Task: Game Stage"
+	quest.4F609468ACA9382F.title: "Task: Forge Energy"
+	quest.398DD99D33B5364E.title: "Task: Custom"
+	quest.6F33BA88E8B57DE6.title: "Rewards: todos os tipos"
+	quest.6F33BA88E8B57DE6.quest_desc: [
+		"Referência de recompensas. Reivindique no jogo para testar."
+		"Game stage / custom podem exigir mods extras."
+	]
+	quest.a0f.toast.exemplo: "Referência TLF: quest concluída!"
+}

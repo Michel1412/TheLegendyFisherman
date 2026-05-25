@@ -1,0 +1,206 @@
+{
+	autofocus_id: "78A1E6167FAD8297"
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	filename: "inicio_da_vila"
+	group: "50D79C43CF4E56EF"
+	hide_quest_until_deps_visible: true
+	icon: { id: "minecolonies:blockhuttownhall" }
+	id: "01AF924A53DE9453"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"357E90BE5994BAE2"
+				"463D0E02AAFD20CD"
+				"5E44EA72D1C2E021"
+				"0483799ED346B468"
+			]
+			dependency_requirement: "all_completed"
+			id: "78A1E6167FAD8297"
+			rewards: [{
+				id: "60F765DF76EA6132"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B5C3459F104C016"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78A1E6167FAD8297"]
+			id: "2404617F225A7E70"
+			rewards: [{
+				id: "30A8927264B1D816"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "77204578E6CDBF61"
+				item: { count: 1, id: "minecolonies:supplychestdeployer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2404617F225A7E70"]
+			id: "444E61B131D641EF"
+			rewards: [{
+				id: "6D5CB0F1992803B6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "3A9450CA9734092B"
+					item: { count: 1, id: "structurize:sceptergold" }
+					type: "item"
+				}
+				{
+					id: "5A6F52D60F836B8B"
+					item: { count: 1, id: "minecolonies:blockhuttownhall" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["444E61B131D641EF"]
+			id: "1ACA906F0606778E"
+			rewards: [{
+				id: "632FD1E511C51185"
+				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "461DA15A93D159EF"
+				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1ACA906F0606778E"]
+			id: "34AA9119C749FD4D"
+			rewards: [{
+				id: "3E2A86D3377D625F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1E18FD7DE89F9F86"
+				item: { count: 1, id: "minecolonies:blockhutfisherman" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34AA9119C749FD4D"]
+			id: "54E0CF4624409E16"
+			rewards: [{
+				id: "042C8605DE06DF9B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5B2B2E5CF2D4613D"
+				item: { count: 1, id: "minecolonies:blockhutcook" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["54E0CF4624409E16"]
+			id: "4837393A65B0CAB0"
+			rewards: [{
+				id: "64756340817DBA08"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2331978D12A1277E"
+				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4837393A65B0CAB0"]
+			id: "6396E6E420AE3D5C"
+			rewards: [{
+				id: "3746B72C82CD6ED1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7ADF6283006D4FD4"
+				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6396E6E420AE3D5C"]
+			id: "0C627CAAF33B340F"
+			rewards: [{
+				id: "218F7DEC4C62B3AF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0D74085912246244"
+				item: { count: 1, id: "minecolonies:blockhutguardtower" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0C627CAAF33B340F"]
+			id: "6325FF3640F27E4F"
+			rewards: [{
+				id: "04EBE51FF0F5ABAA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "079239CA780D0411"
+				item: { count: 1, id: "minecolonies:blockhutuniversity" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6325FF3640F27E4F"]
+			id: "499DAD451959A7D3"
+			rewards: [{
+				description: "quest.tlf.toast.colonia"
+				id: "6675A608BB4CC12C"
+				type: "toast"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "10751156F4DD143A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+	]
+	title: "Inicio da Vila"
+}

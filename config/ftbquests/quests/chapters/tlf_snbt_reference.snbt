@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "rsquare"
+	filename: "tlf_snbt_reference"
+	group: ""
+	id: "75A55E3FDE6CB762"
+	images: [{
+		height: 1.5d
+		image: "minecraft:textures/block/oak_planks.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E36FADE2D62C475"
+			rewards: [{
+				id: "7B6F404808482681"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "460C2D9912B254B8"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "6595260BF4B78581"
+			rewards: [{
+				id: "5A72A9E75CD0E88A"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "550C02D86AF8858C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "3D03295762080E28"
+			rewards: [{
+				id: "1EEED805AF41158E"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "34E20B05AEFAB49F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "3FF7250F0C6DA082"
+			rewards: [{
+				id: "71DF8F7530881630"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+				id: "5689D969AD1F683F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "33994BAB3A662357"
+			rewards: [{
+				id: "583384135FF33607"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3206ABFE9339B0B8"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3828A78442374688"
+			rewards: [{
+				id: "5E0953BAB0DBEBCA"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				biome: "minecraft:river"
+				id: "20BAB1C33F0855F7"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6F486E956E86F3C4"
+			rewards: [{
+				id: "03780EC2FBC3E14E"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "45F4744B90E611F0"
+				structure: "minecraft:village"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "18A853A2A26F2090"
+			rewards: [{
+				id: "0A33B98CE218B45B"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4160CF218FE6E948"
+				ignore_dimension: true
+				position: [I;
+					0
+					64
+					0
+				]
+				size: [I;
+					32
+					32
+					32
+				]
+				type: "location"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "15AB2B1F8490D382"
+			rewards: [{
+				id: "0ECBE98410761E0B"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2A92079589CF5A51"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:water"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "2DA0C0DDFF41AE59"
+			rewards: [{
+				id: "461F32B2B7F9FF8D"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "61A096C73BCF928C"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "019007626E86CE4B"
+			rewards: [{
+				id: "0CBD635C2DA87656"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				amount: 1L
+				fluid: "minecraft:water"
+				id: "1211B883E9B5871D"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0E2E8BDFFFA29E86"
+			rewards: [{
+				id: "2A271C4666C1ACF5"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2C10E7BEE8534581"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "72A0D9E20561F914"
+			rewards: [{
+				id: "5AC9A25BA5D221D8"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0ADDFCC0DBAD423B"
+				stage: "tlf_snbt_reference"
+				type: "gamestage"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "4F609468ACA9382F"
+			rewards: [{
+				id: "7A868BB8BD0B6E9B"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2E897169D834B757"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "398DD99D33B5364E"
+			rewards: [{
+				id: "17BE991249AC44F7"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "1BBD163B729DD5C2"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6F33BA88E8B57DE6"
+			rewards: [
+				{
+					id: "18C5C3B772F5C639"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "10DB28FDB86B657B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B714800CB4A8C7D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					command: "/give @p minecraft:cod 1"
+					id: "570A63F9C83AE0F4"
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E16D8903B83D15A"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C3FDB1F5569883E"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74801E4D20E3FE3D"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C8820BAFD148F2F"
+					type: "all_table"
+				}
+				{
+					advancement: "minecraft:adventure/root"
+					auto: "enabled"
+					criterion: ""
+					id: "2A28346F2E24B727"
+					type: "advancement"
+				}
+				{
+					description: "quest.a0f.toast.exemplo"
+					id: "228AA3A237F269DA"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					id: "2CD5B75189A478F2"
+					stage: "tlf_snbt_reference_reward"
+					type: "gamestage"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "76CAECB1E57FFF24"
+					tags: ["tlf_snbt_reference"]
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "3D516E0CD0C07B03"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}
