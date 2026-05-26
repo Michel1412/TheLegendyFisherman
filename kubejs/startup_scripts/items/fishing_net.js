@@ -1,5 +1,5 @@
 // priority: 10
-// Utensílio único: 1 por stack, 64 de durabilidade (como vara de pesca).
+// Utensilio unico para introduzir que peixes podem existir como entidades.
 
 StartupEvents.registry('item', function (event) {
   event
@@ -7,5 +7,4 @@ StartupEvents.registry('item', function (event) {
     .displayName('Rede de Pesca')
     .maxStackSize(1)
     .maxDamage(64)
-    .tooltip('Clique em um peixe para capturá-lo.')
 })

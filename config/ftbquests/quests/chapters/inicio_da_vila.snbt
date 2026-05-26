@@ -2,10 +2,10 @@
 	autofocus_id: "78A1E6167FAD8297"
 	default_hide_dependency_lines: false
 	default_min_width: 280
+	default_quest_shape: ""
 	filename: "inicio_da_vila"
 	group: "50D79C43CF4E56EF"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecolonies:blockhuttownhall" }
 	id: "01AF924A53DE9453"
 	order_index: 0
 	quest_links: [ ]
@@ -17,7 +17,6 @@
 				"5E44EA72D1C2E021"
 				"0483799ED346B468"
 			]
-			dependency_requirement: "all_completed"
 			id: "78A1E6167FAD8297"
 			rewards: [{
 				id: "60F765DF76EA6132"
@@ -43,7 +42,6 @@
 			}]
 			tasks: [{
 				id: "77204578E6CDBF61"
-				item: { count: 1, id: "minecolonies:supplychestdeployer" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -60,12 +58,10 @@
 			tasks: [
 				{
 					id: "3A9450CA9734092B"
-					item: { count: 1, id: "structurize:sceptergold" }
 					type: "item"
 				}
 				{
 					id: "5A6F52D60F836B8B"
-					item: { count: 1, id: "minecolonies:blockhuttownhall" }
 					type: "item"
 				}
 			]
@@ -77,12 +73,11 @@
 			id: "1ACA906F0606778E"
 			rewards: [{
 				id: "632FD1E511C51185"
-				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				item: "minecolonies:blockhutbuilder"
 				type: "item"
 			}]
 			tasks: [{
 				id: "461DA15A93D159EF"
-				item: { count: 1, id: "minecolonies:blockhutbuilder" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -98,7 +93,6 @@
 			}]
 			tasks: [{
 				id: "1E18FD7DE89F9F86"
-				item: { count: 1, id: "minecolonies:blockhutfisherman" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -114,7 +108,6 @@
 			}]
 			tasks: [{
 				id: "5B2B2E5CF2D4613D"
-				item: { count: 1, id: "minecolonies:blockhutcook" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -130,7 +123,6 @@
 			}]
 			tasks: [{
 				id: "2331978D12A1277E"
-				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -146,7 +138,6 @@
 			}]
 			tasks: [{
 				id: "7ADF6283006D4FD4"
-				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -162,7 +153,6 @@
 			}]
 			tasks: [{
 				id: "0D74085912246244"
-				item: { count: 1, id: "minecolonies:blockhutguardtower" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -178,7 +168,6 @@
 			}]
 			tasks: [{
 				id: "079239CA780D0411"
-				item: { count: 1, id: "minecolonies:blockhutuniversity" }
 				type: "item"
 			}]
 			x: 2.5d

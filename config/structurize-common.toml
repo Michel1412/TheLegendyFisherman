@@ -1,0 +1,14 @@
+
+# All configuration items related to Structurize gameplay and schematics.
+[gameplay]
+	# Should the default schematics be ignored from loaded jars?
+	# Keep false for TLF: MineColonies huts rely on the built-in schematic packs.
+	# Setting this to true is the only known hard-disable path for default packs,
+	# but it can break hut previews/buildings when a full replacement pack is missing.
+	# [Default: false]
+	ignoreSchematicsFromJar = false
+
+	# Should player-made schematics be allowed?
+	# Keep true so the local `blueprints/chelzinho` pack and future TLF scans work.
+	# [Default: true]
+	allowPlayerSchematics = true

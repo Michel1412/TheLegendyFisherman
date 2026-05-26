@@ -5,12 +5,6 @@
 	filename: "caminhos_profundos"
 	group: "7A2B9C1D4E6F8091"
 	hide_quest_until_deps_visible: true
-	icon: {
-		components: {
-			"ftbquests:icon": "ftblibrary:icons/journal"
-		}
-		id: "ftbquests:custom_icon"
-	}
 	id: "5D3CF09FAC69FFEA"
 	order_index: 0
 	quest_links: [ ]
@@ -22,7 +16,6 @@
 				"034F98C3AF90CD51"
 				"0B7DBA167854991E"
 			]
-			dependency_requirement: "all_completed"
 			id: "514459B8E2867312"
 			rewards: [{
 				id: "242BF0C366BDB472"

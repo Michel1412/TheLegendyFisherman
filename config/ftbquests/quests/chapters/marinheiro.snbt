@@ -1,10 +1,10 @@
 {
 	autofocus_id: "0E5C288373769EE9"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "marinheiro"
 	group: "14CBBE38ED185C1E"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecraft:oak_boat" }
 	id: "61A5FAA7D712D09D"
 	order_index: 2
 	quest_links: [ ]
@@ -45,12 +45,11 @@
 			id: "09EA84EA8B5A47B0"
 			rewards: [{
 				id: "5C33E1A326C79F92"
-				item: { count: 1, id: "minecraft:compass" }
+				item: "minecraft:compass"
 				type: "item"
 			}]
 			tasks: [{
 				id: "587132E0C27987C1"
-				item: { count: 1, id: "minecraft:oak_boat" }
 				type: "item"
 			}]
 			x: 4.0d

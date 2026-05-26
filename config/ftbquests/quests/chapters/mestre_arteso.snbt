@@ -1,10 +1,10 @@
 {
 	autofocus_id: "33C318105923C519"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "mestre_arteso"
 	group: "4FD42C8A70C3F177"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecraft:smithing_table" }
 	id: "02D5E0A03CD4F032"
 	order_index: 1
 	quest_links: [ ]
@@ -34,7 +34,6 @@
 			}]
 			tasks: [{
 				id: "1A44AC0A7E035B91"
-				item: { count: 1, id: "minecraft:smithing_table" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -50,7 +49,6 @@
 			}]
 			tasks: [{
 				id: "12415896113D637B"
-				item: { count: 1, id: "minecraft:anvil" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -68,7 +66,6 @@
 			size: 1.5d
 			tasks: [{
 				id: "773B650B3CBD6543"
-				item: { count: 1, id: "minecraft:grindstone" }
 				type: "item"
 			}]
 			x: 6.0d

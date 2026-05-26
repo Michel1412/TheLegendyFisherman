@@ -1,0 +1,38 @@
+{
+	id: "5A17B4175BA17B41"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "aquaculture:minnow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "aquaculture:leech"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Iscas de Aprendiz"
+}

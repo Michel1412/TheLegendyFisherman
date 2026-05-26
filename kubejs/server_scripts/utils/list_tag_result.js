@@ -16,7 +16,17 @@ global.TLF_listTagForCommand = function (source, tagOrAlias) {
 
   var tlfPath = global.TLF_writeTagListTemp(tlfLookup.alias, tlfLookup.tag, tlfLookup.ids)
 
-  global.TLF_tellSource(source, Text.gold('=== ' + tlfLookup.alias + ' → ' + tlfLookup.tag + ' (' + tlfLookup.ids.length + ') ==='))
+  var tlfTitle = tlfLookup.label || tlfLookup.alias
+  global.TLF_tellSource(source, Text.gold('=== ' + tlfTitle + ' → ' + tlfLookup.tag + ' (' + tlfLookup.ids.length + ') ==='))
+
+  if (tlfLookup.ids.length === 0) {
+    global.TLF_tellSource(source, Text.yellow('Nenhum item encontrado. Confira se o mod cria tags/IDs para esta categoria.'))
+  }
+
+  ;(tlfLookup.notes || []).forEach(function (note) {
+    global.TLF_tellSource(source, Text.darkGray(note))
+  })
+
   tlfLookup.ids.forEach(function (id) {
     global.TLF_tellSource(source, Text.gray(id))
   })
@@ -37,5 +47,9 @@ global.TLF_listAtalhosForCommand = function (source) {
   global.TLF_tellSource(source, Text.gold('=== Atalhos de tags (TLF_TAGS) ==='))
   Object.keys(global.TLF_TAGS).forEach(function (key) {
     global.TLF_tellSource(source, Text.gray(key + ' → ' + global.TLF_TAGS[key]))
+  })
+  global.TLF_tellSource(source, Text.gold('=== Descoberta por tags + heurística ==='))
+  Object.keys(global.TLF_DISCOVERY_LISTS || {}).forEach(function (key) {
+    global.TLF_tellSource(source, Text.gray(key + ' → discovery:' + key))
   })
 }

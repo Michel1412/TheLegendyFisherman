@@ -18,8 +18,15 @@ Prioridade: **0**.
 | `/listbytag atalhos` | `literal('atalhos')` fixo |
 | `/listbytag peixes` | `literal('peixes')` gerado de `TLF_TAGS` |
 | `/listbytag peixes_crus` | idem |
+| `/listbytag trofeus` | gerado de `TLF_DISCOVERY_LISTS` |
+| `/listbytag iscas` | gerado de `TLF_DISCOVERY_LISTS` |
+| `/listbytag anzois` | gerado de `TLF_DISCOVERY_LISTS` |
+| `/tlf list trophies` | atalho para `trofeus` |
+| `/tlf list baits` | atalho para `iscas` |
+| `/tlf list hooks` | atalho para `anzois` |
 
 Novos atalhos em `constants/tags.js` viram subcomando automaticamente após `/reload`.
+Categorias em `TLF_DISCOVERY_LISTS` tambem viram subcomandos e combinam tags candidatas com heuristica por ID.
 
 ## Por que não usa argumento STRING
 
@@ -43,6 +50,12 @@ Object.keys(global.TLF_TAGS).forEach(function (atalho) {
 })
 ```
 
+## Descoberta de troféus, iscas e anzóis
+
+`trofeus`, `iscas` e `anzois` tentam ler tags comuns dos mods de pesca novos. Se uma tag nao existir ou estiver vazia, o comando informa isso no chat. Em seguida, tenta varrer IDs de itens via `Ingredient.all` e filtrar por palavras-chave como `trophy`, `bait` e `hook`.
+
+Esse fallback e propositalmente conservador: ele ajuda a descobrir registries novos sem assumir que todos os mods usam as mesmas tags.
+
 ## Limitação
 
 Tags novas precisam de entrada em `TLF_TAGS` (não dá para passar `#minecraft:fishes` arbitrário pelo chat). Para tag avulsa, adicione um atalho no mapa.
@@ -56,5 +69,9 @@ Tags novas precisam de entrada em `TLF_TAGS` (não dá para passar `#minecraft:f
 1. `/reload`
 2. `/listbytag test`
 3. `/listbytag peixes`
+4. `/listbytag trofeus`
+5. `/listbytag iscas`
+6. `/listbytag anzois`
+7. `/tlf list trophies`
 
 Exportação: `logs/kubejs/server.log` (buscar `[listbytag-export]`)

@@ -1,15 +1,10 @@
 {
 	autofocus_id: "7762EE2CF2AD3279"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "suas_metricas"
 	group: "50D79C43CF4E56EF"
 	hide_quest_until_deps_visible: true
-	icon: {
-		components: {
-			"ftbquests:icon": "ftblibrary:icons/clock"
-		}
-		id: "ftbquests:custom_icon"
-	}
 	id: "6022D36512A991C0"
 	order_index: 1
 	quest_links: [ ]

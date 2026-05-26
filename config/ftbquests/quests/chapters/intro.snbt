@@ -5,77 +5,247 @@
 	filename: "intro"
 	group: ""
 	hide_quest_until_deps_visible: true
-	icon: { id: "farmersdelight:flint_knife" }
 	id: "7819FD50AECFC6BF"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Antes de pescar, aprenda a improvisar no cais."
+				""
+				"Tenha uma &efaca de silex&r do Farmer's Delight. Ela abre o caminho para corda, comida e equipamento de pesca."
+			]
 			id: "3ABF451FD174FC74"
-			rewards: [{
-				id: "60B9A325A5E07301"
-				item: { count: 4, id: "minecraft:string" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "60B9A325A5E07301"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27DBF0D543BE7872"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Farmer's Delight - faca de silex"
 			tasks: [{
-				id: "1BA8657D5ACC4ED6"
-				item: { count: 1, id: "farmersdelight:flint_knife" }
+				id: "72EAC61579912506"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "Faca do marujo"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3ABF451FD174FC74"]
+			description: [
+				"A primeira gambiarra oficial do cais."
+				""
+				"A &6corda&r substitui o barbante na receita da vara improvisada do TLF."
+			]
 			id: "1FD3C02A7F7B2188"
 			rewards: [{
 				id: "7C7AC2BE00736140"
 				type: "xp"
-				xp: 25
+				xp: 10
 			}]
+			subtitle: "1x farmersdelight:rope"
 			tasks: [{
-				id: "79A9F7BEEA0B6DB9"
-				item: { count: 1, id: "farmersdelight:rope" }
+				id: "7E504D4FCE1AE0C3"
+				item: "farmersdelight:rope"
 				type: "item"
 			}]
+			title: "Corda improvisada"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1FD3C02A7F7B2188"]
+			description: [
+				"Agora o graveto virou promessa."
+				""
+				"Use 3 gravetos e 2 cordas. Esta vara tem apenas &c10 usos&r e sempre conta como tier &7LOW&r."
+			]
 			id: "6B635D1717E56622"
-			rewards: [{
-				id: "5209CDA7BD821701"
-				item: { count: 2, id: "farmersdelight:rope" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "5209CDA7BD821701"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					id: "2BEC7B63C0522F0E"
+					item: {
+						Count: 1
+						id: "kubejs:fishing_net"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "3 gravetos + 2 cordas"
 			tasks: [{
 				id: "20EF3F7BC56CCE6F"
-				item: { count: 1, id: "minecraft:fishing_rod" }
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "Vara do aprendiz"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6B635D1717E56622"]
+			description: [
+				"Nem todo peixe vira item sozinho."
+				""
+				"No TLF, alguns peixes aparecem vivos no mundo. Use a &aRede de Pesca&r para entender essa captura de perto."
+			]
+			id: "32AA2BFF411D888A"
+			rewards: [
+				{
+					id: "5F0E499A408F7FA8"
+					item: {
+						Count: 1
+						id: "kubejs:fishing_net"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C9CA825C5659E18"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+			]
+			subtitle: "Pegue uma rede e capture um peixe vivo"
+			tasks: [{
+				id: "03D127CBB19E59A7"
+				item: {
+					Count: 1
+					id: "kubejs:fishing_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Rede do iniciante"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A primeira puxada sempre vem com susto."
+				""
+				"Jogue a linha, espere o bobber afundar e recolha. Depois o Pescador ensina hooks, iscas e minigame."
+			]
+			id: "4698307347BBA0F4"
+			rewards: [{
+				id: "2EEB0DC1B3E136D0"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			subtitle: "Capture qualquer peixe"
+			tasks: [{
+				id: "45B04366A0B05F1D"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1
+			}]
+			title: "Primeira mordida"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4698307347BBA0F4"]
+			description: [
+				"&7LOW&r e improviso. &fMEDIUM&r e estabilidade. &aGOOD&r e especializacao."
+				"&9GREAT&r, &5EXCELLENT&r, &dPERFECT&r e &6LEGENDARY&r sao mares cada vez mais raros."
+				""
+				"As quatro rotas de Aprendiz abrem depois que voce entender estes fundamentos."
+			]
 			id: "7515A04E6573E89D"
 			rewards: [{
 				id: "7C83AAC42F9D2988"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Glossario rapido"
 			tasks: [{
 				id: "419CF4B2105E95D0"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			title: "Lendo as mares (Tiers)"
+			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7515A04E6573E89D"]
+			description: [
+				"O oceano e grande, molhado e levemente julgador."
+				""
+				"Visite um bioma de oceano. A rota Pescador vai transformar vara, isca, anzol e boia em equipamento de verdade."
+			]
+			id: "12E83C867FA6BD28"
+			rewards: [
+				{
+					id: "5E9A090CAF0F8B52"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67B8764DEE0DAEA9"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			subtitle: "Visite um bioma de oceano"
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				id: "18878E61C227C984"
+				type: "biome"
+			}]
+			title: "O cais te chama"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E83C867FA6BD28"]
+			description: [
+				"Voce tem faca, corda, vara e a primeira historia de pescador."
+				""
+				"As abas &aPescador&r, &6Cozinheiro&r, &7Artesao&r e &bMarinheiro&r liberam ao mesmo tempo."
+			]
 			id: "2B63327585027AE2"
 			rewards: [{
 				description: "quest.tlf.toast.basico"
@@ -84,11 +254,13 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Desbloqueia as 4 vertentes Aprendiz"
 			tasks: [{
 				id: "612877F5C1A84382"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			title: "Fundamentos concluidos"
+			x: 14.0d
 			y: 0.0d
 		}
 	]

@@ -1,10 +1,10 @@
 {
 	autofocus_id: "51CC2296EAA81F4A"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "arteso"
 	group: "14CBBE38ED185C1E"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecraft:crafting_table" }
 	id: "445F5AC8ECDEB032"
 	order_index: 1
 	quest_links: [ ]
@@ -34,7 +34,6 @@
 			}]
 			tasks: [{
 				id: "71CFA0C7A1F30352"
-				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -45,12 +44,11 @@
 			id: "3A9553A48AFC4357"
 			rewards: [{
 				id: "5A54041A21C879DA"
-				item: { count: 2, id: "farmersdelight:rope" }
+				item: "farmersdelight:rope"
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EF38AABD6EF7AEC"
-				item: { count: 1, id: "minecraft:oak_boat" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -68,7 +66,6 @@
 			size: 1.5d
 			tasks: [{
 				id: "54F29B2658441FD7"
-				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
 			}]
 			x: 6.0d

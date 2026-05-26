@@ -33,50 +33,150 @@
 	quest.3ABF451FD174FC74.quest_desc: [
 		"Antes de pescar, aprenda a improvisar no cais."
 		""
-		"Tenha no inventário uma &efaca do Farmer's Delight&r (&7flint knife&r). Com ela você poderá preparar materiais e, mais adiante, &6cordas&r (&orope&r) para montar equipamento."
+		"Tenha uma &efaca de sílex&r do Farmer's Delight. Ela abre o caminho para corda, comida e equipamento de pesca."
 	]
 	quest.1FD3C02A7F7B2188.title: "Corda improvisada"
 	quest.1FD3C02A7F7B2188.quest_subtitle: "1× farmersdelight:rope"
 	quest.1FD3C02A7F7B2188.quest_desc: [
-		"Use a faca e os recursos do &eFarmer's Delight&r para obter uma &6corda&r."
+		"A primeira gambiarra oficial do cais."
 		""
-		"Ela substitui o barbante na única receita de vara permitida neste modpack."
+		"A &6corda&r substitui o barbante na receita da vara improvisada do TLF."
 	]
 	quest.6B635D1717E56622.title: "Vara do aprendiz"
 	quest.6B635D1717E56622.quest_subtitle: "3 gravetos + 2 cordas"
 	quest.6B635D1717E56622.quest_desc: [
-		"Monte sua primeira vara na bancada:"
+		"Agora o graveto virou promessa."
 		""
-		"&7Padrão igual à vara vanilla&r, trocando &estring&r por &6corda&r:"
-		"&8[ R ]&r"
-		"&8[RS]&r"
-		"&8[S  ]&r"
+		"Use 3 gravetos e 2 cordas. Esta vara tem apenas &c10 usos&r e sempre conta como tier &7LOW&r."
+	]
+	quest.A17E7717E0000001.title: "Rede do iniciante"
+	quest.A17E7717E0000001.quest_subtitle: "Pegue uma rede e capture um peixe vivo"
+	quest.A17E7717E0000001.quest_desc: [
+		"Nem todo peixe vira item sozinho."
 		""
-		"R = corda, S = graveto. A vara do pack tem apenas &c10 de durabilidade&r — trate-a com cuidado."
+		"No TLF, alguns peixes aparecem vivos no mundo. Use a &aRede de Pesca&r para entender essa captura de perto."
+	]
+	quest.A170F151F0000001.title: "Primeira mordida"
+	quest.A170F151F0000001.quest_subtitle: "Capture qualquer peixe"
+	quest.A170F151F0000001.quest_desc: [
+		"A primeira puxada sempre vem com susto."
+		""
+		"Jogue a linha, espere o bobber afundar e recolha. Depois o Pescador ensina hooks, iscas e minigame."
 	]
 	quest.7515A04E6573E89D.title: "Lendo as marés (Tiers)"
+	quest.7515A04E6573E89D.quest_subtitle: "Glossário rápido"
 	quest.7515A04E6573E89D.quest_desc: [
-		"&7LOW&r — improviso. &fMEDIUM&r — estabilidade. &aGOOD&r — especialização."
-		"&9GREAT&r — reconhecimento local. &5EXCELLENT&r — maestria. &dPERFECT&r — excelência rara. &6LEGENDARY&r — transcendência."
+		"&7LOW&r é improviso. &fMEDIUM&r é estabilidade. &aGOOD&r é especialização."
+		"&9GREAT&r, &5EXCELLENT&r, &dPERFECT&r e &6LEGENDARY&r são mares cada vez mais raros."
 		""
-		"Quatro rotas de &aAprendiz&r (rápidas) abrem em paralelo após esta etapa. Depois vêm &cCaminhos Profundos&r e a trilha &9Mestre&r (lenta)."
+		"As quatro rotas de Aprendiz abrem depois que você entender estes fundamentos."
+	]
+	quest.A17CA15000000001.title: "O cais te chama"
+	quest.A17CA15000000001.quest_subtitle: "Visite um bioma de oceano"
+	quest.A17CA15000000001.quest_desc: [
+		"O oceano é grande, molhado e levemente julgador."
+		""
+		"Visite um bioma de oceano. A rota Pescador transforma vara, isca, anzol e boia em equipamento de verdade."
 	]
 	quest.2B63327585027AE2.title: "Fundamentos concluídos"
 	quest.2B63327585027AE2.quest_subtitle: "Desbloqueia as 4 vertentes Aprendiz"
 	quest.2B63327585027AE2.quest_desc: [
-		"Você tem faca, corda e vara improvisada. As abas &aPescador&r, &6Cozinheiro&r, &7Artesão&r e &bMarinheiro&r liberam &oao mesmo tempo&r — pode fazer em qualquer ordem, mas &lcada aba&r é sequencial por dentro."
+		"Você tem faca, corda, vara e a primeira história de pescador."
 		""
-		"Conclua &todas as quatro&r para abrir &cCaminhos Profundos&r."
+		"As abas &aPescador&r, &6Cozinheiro&r, &7Artesão&r e &bMarinheiro&r liberam ao mesmo tempo."
 	]
 
 	quest.09F348FF8189073A.title: "Aprendiz do cais"
-	quest.09F348FF8189073A.quest_desc: ["A rota do Pescador abre. Capture, observe biomas e acumule reputação no cais."]
+	quest.09F348FF8189073A.quest_subtitle: "Bem-vindo à guilda dos pescadores"
+	quest.09F348FF8189073A.quest_desc: [
+		"A rota do Pescador abre com cheiro de peixe e ego baixo."
+		""
+		"Aqui você aprende cada parte da vara: linha, anzol, isca, boia e técnica."
+	]
+	quest.A17CA1C0A1A00001.title: "Caixa de apetrechos"
+	quest.A17CA1C0A1A00001.quest_subtitle: "Craft aquaculture:tackle_box"
+	quest.A17CA1C0A1A00001.quest_desc: [
+		"Todo pescador sério tem uma caixa cheia de coisa que ele jura que usa."
+		""
+		"A Tackle Box guarda e equipa hooks, iscas, linhas e boias nas varas do Aquaculture."
+	]
+	quest.A17A46116E000001.title: "Mesa de aposentadoria"
+	quest.A17A46116E000001.quest_subtitle: "Craft tide:angling_table"
+	quest.A17A46116E000001.quest_desc: [
+		"Quando a bancada comum cansa, nasce a mesa do pescador."
+		""
+		"A Angling Table do Tide cria partes especiais para sua vara modular."
+	]
+	quest.A17F150D00000001.title: "Vara de ferro forjada"
+	quest.A17F150D00000001.quest_subtitle: "Primeira vara moderna"
+	quest.A17F150D00000001.quest_desc: [
+		"A vara improvisada ensinou humildade. A de ferro ensina confiança."
+		""
+		"Crie uma vara de ferro do Aquaculture para começar a usar melhorias de verdade."
+	]
+	quest.A17BA11700000001.title: "Verme do quintal"
+	quest.A17BA11700000001.quest_subtitle: "Iscas: worm, minnow ou leech"
+	quest.A17BA11700000001.quest_desc: [
+		"Isca é o convite educado para o peixe fazer besteira."
+		""
+		"Comece com um worm. Depois teste minnow, leech e iscas especiais para controlar velocidade e alvo."
+	]
+	quest.A17A870100000001.title: "Anzol que não corta"
+	quest.A17A870100000001.quest_subtitle: "Primeiro hook funcional"
+	quest.A17A870100000001.quest_desc: [
+		"O hook é a personalidade da vara."
+		""
+		"O Iron Hook ajuda a preservar isca. O Gold Hook abre o gosto por bônus melhores."
+	]
+	quest.A1711E8A80000001.title: "Linha e boia"
+	quest.A1711E8A80000001.quest_subtitle: "Cosméticos com efeito"
+	quest.A1711E8A80000001.quest_desc: [
+		"Não é frescura se o peixe respeita."
+		""
+		"Linhas afetam alcance ou peso. Boias ajudam visualmente e deixam sua vara com cara de ferramenta própria."
+	]
+	quest.A17E901B00000001.title: "Equipa o pescador"
+	quest.A17E901B00000001.quest_subtitle: "Use a Tackle Box"
+	quest.A17E901B00000001.quest_desc: [
+		"Agora enfia tudo na caixa e finge que foi planejado."
+		""
+		"Coloque a vara, encaixe hook, isca, linha e boia. Retire a vara pronta para teste."
+	]
 	quest.2279061F8FB1E455.title: "Rede de iniciante"
 	quest.2279061F8FB1E455.quest_subtitle: "Pesque 5 vezes"
+	quest.2279061F8FB1E455.quest_desc: [
+		"Com equipamento montado, a paciencia vira metodo."
+		""
+		"Pesque algumas vezes e sinta como a montagem muda o ritmo da captura."
+	]
+	quest.A17BACC010000001.title: "A barra colorida"
+	quest.A17BACC010000001.quest_subtitle: "Minigame do Tide"
+	quest.A17BACC010000001.quest_desc: [
+		"Aqui o peixe tenta te humilhar em tempo real."
+		""
+		"No minigame, clique quando a barra entrar na zona colorida. Errar demais pode custar a captura."
+	]
 	quest.7314C8334DF9DF87.title: "Águas abertas"
-	quest.7314C8334DF9DF87.quest_subtitle: "Visite o oceano"
+	quest.7314C8334DF9DF87.quest_subtitle: "Pesque no oceano"
+	quest.7314C8334DF9DF87.quest_desc: [
+		"O oceano é onde o pescador para de chamar lagoa de aventura."
+		""
+		"Biomas diferentes trazem peixes diferentes, principalmente com Aquaculture e Tide."
+	]
+	quest.A17D1A9100000001.title: "Diário do oceano"
+	quest.A17D1A9100000001.quest_subtitle: "Fishing Journal"
+	quest.A17D1A9100000001.quest_desc: [
+		"História de pescador sem livro vira mentira sem prova."
+		""
+		"O diário registra espécies, habitats e descobertas. Use-o como catálogo da sua coleção."
+	]
 	quest.7BF920AB7D7891D4.title: "Aprendiz pescador — concluído"
-	quest.7BF920AB7D7891D4.quest_desc: ["Você dominou o ritmo rápido da costa. Sua insígnia costeira aguarda o próximo maré."]
+	quest.7BF920AB7D7891D4.quest_subtitle: "Pesque 20 peixes"
+	quest.7BF920AB7D7891D4.quest_desc: [
+		"Você deixou de ser só alguém molhando barbante."
+		""
+		"Com 20 capturas, já entende equipamento, bioma e ritmo. A maré profunda vem depois."
+	]
 
 	quest.1922E0069FE0C4C8.title: "Fogueira do convés"
 	quest.5C6A9F8A8B0E5857.title: "Primeiro prato de bordo"

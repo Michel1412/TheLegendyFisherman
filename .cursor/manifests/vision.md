@@ -23,6 +23,20 @@ Preencha este arquivo antes de iniciar refatoracoes de sistemas, quests, economi
 
 ---
 
+## Filosofia central
+
+> "Viva como um pescador humilde, aproveitando a paz e da leveza da vida"
+
+Esta e a promessa emocional do TLF. O jogador comeca pequeno: uma vara ruim, uma cabana simples, chuva na praia e pouco controle sobre o oceano. A progressao nao deve transformar essa fantasia em pressa industrial; ela deve ampliar a vida costeira com cuidado, comunidade e dominio artesanal.
+
+- Pescador reforca paciencia, tecnica e respeito ao mar.
+- Cozinheiro transforma capturas simples em conforto e preparo.
+- Artesao faz a vida no cais parecer construida pelas proprias maos.
+- Marinheiro amplia a costa sem perder o sentimento de casa.
+- MineColonies representa a virada de abrigo humilde para porto vivo.
+
+---
+
 ## Validacao de Mods
 
 ### Objetivo

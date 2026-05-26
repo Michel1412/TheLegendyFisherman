@@ -1,10 +1,10 @@
 {
 	autofocus_id: "09F348FF8189073A"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "fisherman"
 	group: "14CBBE38ED185C1E"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecraft:cod" }
 	id: "263550FBBA81F03A"
 	order_index: 0
 	quest_links: [ ]
@@ -17,6 +17,8 @@
 				type: "xp"
 				xp: 15
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "2972309F315120C6"
 				type: "checkmark"
@@ -26,6 +28,152 @@
 		}
 		{
 			dependencies: ["09F348FF8189073A"]
+			id: "5DC2EC8835C70444"
+			rewards: [
+				{
+					id: "5328EBFE0F5D8A07"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BCF9EB4E5F8BDAE"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B23B9BAA0DD3100"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0F4980D5DD3B06DF"
+			rewards: [{
+				id: "04C2EB4ABA894CCD"
+				item: "aquaculture:fishing_line"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E2173720B56571"
+				item: "tide:angling_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5F0A56944952EC89"
+			rewards: [
+				{
+					count: 4
+					id: "4CB83A845007A339"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "660C4C9BD9DFD4F5"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72E1A029D53E764F"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "39DB5B3AE755739E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34A3D6D30DFB2C79"
+				table_id: 6491855400292416321L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1A4B5C3B57EB7505"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "48B660C4FAB987FE"
+			rewards: [{
+				id: "38E894F43C9AFC5B"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0BCE01C5344042"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "21CF1267E569C70E"
+			rewards: [{
+				id: "6A40D0EB4BBC7B34"
+				table_id: 6491851708887486465L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1C816DE172CDBF66"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "2490C10E96422365"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "5D4FD33675A9F55A"
+			rewards: [{
+				id: "23B80EFDF0A4603B"
+				item: "starcatcher:hook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C616EF82118BED1"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
 			id: "2279061F8FB1E455"
 			rewards: [{
 				id: "10FB6CA5F57FA432"
@@ -38,15 +186,31 @@
 				type: "stat"
 				value: 5
 			}]
-			x: 2.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2279061F8FB1E455"]
+			id: "296B6D63AB9FF6AC"
+			rewards: [{
+				id: "399A6F9F0C6F09A7"
+				item: "tide:lavaproof_fishing_hook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D216F909355E08E"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 10
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
 			id: "7314C8334DF9DF87"
 			rewards: [{
 				id: "619BD207D5AA1BB8"
-				item: { count: 8, id: "minecraft:cod" }
+				item: "minecraft:cod"
 				type: "item"
 			}]
 			tasks: [{
@@ -54,17 +218,39 @@
 				id: "061E14ED7C87C18C"
 				type: "biome"
 			}]
-			x: 4.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7314C8334DF9DF87"]
-			id: "7BF920AB7D7891D4"
+			id: "540572321C93E096"
 			rewards: [{
-				id: "085E744B4D09EFCF"
-				type: "xp_levels"
-				xp_levels: 2
+				id: "715A49D2F5E7D9C8"
+				item: "starcatcher:hook"
+				type: "item"
 			}]
+			tasks: [{
+				id: "432E6E333C058F16"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "7BF920AB7D7891D4"
+			rewards: [
+				{
+					id: "085E744B4D09EFCF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6EF36DF272DD769A"
+					item: "aquaculture:diamond_hook"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -73,7 +259,7 @@
 				type: "stat"
 				value: 20
 			}]
-			x: 6.0d
+			x: 22.0d
 			y: 0.0d
 		}
 	]

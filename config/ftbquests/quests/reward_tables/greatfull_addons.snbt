@@ -1,0 +1,29 @@
+{
+	id: "0E6DF30A7965A739"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "starcatcher:hook" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "starcatcher:mossy_hook"
+				tag: {
+					"starcatcher:minigame_modifiers": ["starcatcher:harder_with_treasure_on_perfect"]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "starcatcher:amethyst_hook"
+				tag: {
+					"starcatcher:catch_modifiers": ["starcatcher:survives_lava"]
+				}
+			}
+		}
+		{ item: "tide:lavaproof_fishing_hook" }
+	]
+	title: "Greatfull addons"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "pack-format": 1,
+  "desc": "TLF custom MineColonies style pack for a humble medieval nordic fishing village.",
+  "authors": [
+    "Michel"
+  ],
+  "mods": [
+    "minecolonies",
+    "structurize",
+    "domum_ornamentum",
+    "aquaculture"
+  ],
+  "name": "Medieval Nordic Fishing Village",
+  "icon": ""
+}

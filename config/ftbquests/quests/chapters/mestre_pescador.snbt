@@ -1,10 +1,10 @@
 {
 	autofocus_id: "45DB4E1B9BCC5C05"
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "mestre_pescador"
 	group: "4FD42C8A70C3F177"
 	hide_quest_until_deps_visible: true
-	icon: { id: "minecraft:fishing_rod" }
 	id: "53ED630AC3AC13F4"
 	order_index: 0
 	quest_links: [ ]
